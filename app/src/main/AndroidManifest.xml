@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thowfeeqrahman.medicalcard">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".DoctorReg" />
+        <activity android:name=".DoctorReg2" />
+        <activity android:name=".MedicalStoreReg" />
+        <activity android:name=".MedicalStoreReg2" />
+        <activity android:name=".UserReg" />
+        <activity android:name=".UserReg2" />
+        <activity android:name=".ipset">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DoctorHome" />
+        <activity android:name=".dcard" />
+        <activity android:name=".prescription" />
+        <activity android:name=".healthstatus" />
+        <activity android:name=".mcard" />
+        <activity android:name=".medicalstorehome" />
+        <activity android:name=".complaint" />
+        <activity android:name=".Userhome" />
+        <activity android:name=".Userhealth" />
+        <activity android:name=".Userprescription" />
+        <activity android:name=".viewcomplaint" />
+        <activity android:name=".Choosereg" />
+        <activity android:name=".View_doctors" />
+        <activity android:name=".detailhealth" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".Addprescription" />
+        <activity android:name=".pres_detail" />
+        <activity
+            android:name=".Doctor"
+            android:label="@string/title_activity_doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Medical_store"
+            android:label="@string/title_activity_medical_store"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User"
+            android:label="@string/title_activity_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Med_user_view_pres"></activity>
+    </application>
+
+</manifest>
